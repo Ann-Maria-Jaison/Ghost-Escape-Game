@@ -17,7 +17,7 @@ const catImage = new Image();
 catImage.src = 'ghost.png';
 
 const obstacleImage = new Image();
-obstacleImage.src = 'trap.png';
+obstacleImage.src = 'trap1.png';
 
 document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowUp' || event.key === 'w') dy = -catSpeed;
