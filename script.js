@@ -14,10 +14,10 @@ let score = 0;
 let isGameOver = false;
 
 const catImage = new Image();
-catImage.src = 'cat.png';
+catImage.src = 'ghost.png';
 
 const obstacleImage = new Image();
-obstacleImage.src = 'obstacle.png';
+obstacleImage.src = 'trap.png';
 
 document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowUp' || event.key === 'w') dy = -catSpeed;
